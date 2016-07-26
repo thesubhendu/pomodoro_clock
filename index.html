@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pomo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+	
+<div class="container text-center ">
+  <h1>Pomodoro Clock</h1>
+  <div class="row clock-wrap">
+    <div  class="col-md-3 ">
+      
+      <div class="row pull-left">
+        <p>Break Time</p>
+        <button id="bminus" class=" btn btn-sm btn-info">
+        -
+        </button>
+        <button id="breakscr"  class="btn display" >
+        
+        </button>
+        <button id="bplus" class="btn btn-sm btn-default">
+        +
+        </button>
+      </div>
+    </div>
+    
+     <div  class="col-md-6">
+<!--        <p>Main Clock</p>  -->
+       <div id="mainscr" class="well ">
+         
+       </div>
+      
+         <button id="start" class="btn btn-info">
+         Start
+         </button>
+       
+        <button id="reset" class="btn btn-info">
+         Reset
+         </button>
+       
+    </div>
+    
+     <div  class="col-md-3 ">
+      <div class="row pull-right">
+        <p>Session Time</p>
+        <button id="sminus" class=" btn btn-sm btn-info">
+        -
+        </button>
+        <button id="sessionscr"  class="btn display">
+        25:00
+        </button>
+        <button id="splus" class="btn btn-sm btn-default">
+        +
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="pomodoro.js"></script>
+</body>
+
+
+</html>
